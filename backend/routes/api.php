@@ -11,7 +11,7 @@ use App\Http\Controllers\ClothingItemController;
 |--------------------------------------------------------------------------
 */
 
-// Public routes
+/// Public routes
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 
